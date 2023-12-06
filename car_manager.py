@@ -3,7 +3,7 @@ import random
 
 COLORS = ["red", "orange", "yellow", "green", "blue", "purple"]
 STARTING_MOVE_DISTANCE = 5
-MOVE_INCREMENT = 10
+MOVE_INCREMENT = 5
 
 
 class CarManager:
@@ -12,7 +12,7 @@ class CarManager:
         self.car_speed = STARTING_MOVE_DISTANCE
 
     def create_car(self):
-        create_chance = random.randint(1, 6)
+        create_chance = random.randint(1, 5)
         if create_chance == 1:
             new_car = Turtle()
             new_car.shape("square")
@@ -24,7 +24,7 @@ class CarManager:
 
     def move_cars(self):
         for car in self.all_cars:
-            car.backward(STARTING_MOVE_DISTANCE)
+            car.backward(self.car_speed)
 
     def car_speed_up(self):
         self.car_speed += MOVE_INCREMENT

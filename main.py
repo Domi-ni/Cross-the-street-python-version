@@ -17,7 +17,7 @@ screen.onkeypress(key="Up", fun=player_turtle.walk)
 
 game_is_on = True
 while game_is_on:
-    time.sleep(0.1)
+    time.sleep(0.06)
 
     cars.create_car()
     cars.move_cars()
