@@ -35,5 +35,5 @@ After downloading the project, you can open it with PyCharm. To do this, on the 
 - Finally click on RUN
 
 
-<h2 align="justify">Author</h2>
+# Autors
 [Matheus Roberto](https://github.com/Domi-ni)
