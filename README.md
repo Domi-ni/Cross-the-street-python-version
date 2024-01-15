@@ -12,7 +12,7 @@
   <img loading="lazy" src="https://img.shields.io/badge/Status-Concluded-blue"/>
 </p>
 
-<P>A recreation of the famous Atari game "freeway". The recreation was done in javascript on the "P5.js" platform.</p>
+<P>A recreation of the famous Atari game "freeway". The recreation was done in python</p>
 <p>In the game you control, using the up arrow key on the keyboard, our little turtle. The goal of the game is to make the little turtle, in the lower corner, to cross the street and reach the upper corner, avoiding colliding with the cars that are passing through the screen. When you reach the other side you go up a level and the cars go a little faster, and if you are hit by a car it's game over.</P>
 
 
